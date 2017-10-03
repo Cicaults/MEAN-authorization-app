@@ -1,0 +1,85 @@
+a {
+	color: white;
+}
+.dashboard__item {
+	border: 2px solid black;
+	height: 20vh;
+	margin-bottom: 1em;
+	overflow: hidden;
+}
+
+.dashboard__item_mongo {
+	background: url("/assets/img/mongodb-logo.png") no-repeat center center;
+	background-size: contain;
+	border-color: #81c564;
+}
+
+.dashboard__item_express {
+	background: url("/assets/img/express-logo.png") no-repeat center center;
+	background-size: contain; 
+	border-color: #393939;
+}
+
+.dashboard__item_angular {
+	background: url("/assets/img/angular-logo.svg") no-repeat center center;
+	background-size: contain; 
+	border-color: #e23237;
+}
+
+.dashboard__item_node {
+	background: url("/assets/img/nodejs-logo.svg") no-repeat center center;
+	background-size: contain; 
+	border-color: #8cc84b;
+}
+
+.dashboard__item-slideup {
+	width: inherit;
+	height: inherit;
+	position: relative;
+	top: 100%;
+	transition: top .65s;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.dashboard__item-slideup-text {
+	position: relative;
+	top: 30%;
+	color: white;
+}
+
+.dashboard__item-slideup_mongo {
+	background-color: #81c564;
+}
+
+.dashboard__item-slideup_express {
+	background-color: #393939;
+}
+
+.dashboard__item-slideup_angular {
+	background-color: #e23237;
+}
+
+.dashboard__item-slideup_node {
+	background-color: #8cc84b;
+}
+
+
+
+
+.dashboard__item_mongo:hover .dashboard__item-slideup_mongo {
+	top: 0;
+}
+
+.dashboard__item_express:hover .dashboard__item-slideup_express {
+	top: 0;
+}
+
+.dashboard__item_angular:hover .dashboard__item-slideup_angular {
+	top: 0;
+}
+
+.dashboard__item_node:hover .dashboard__item-slideup_node {
+	top: 0;
+}
+

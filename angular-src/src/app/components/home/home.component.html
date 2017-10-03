@@ -1,0 +1,23 @@
+<div class="jumbotron text-center">
+	<h1><span class="mongo_letter">M</span><span class="express_letter">E</span><span class="angular_letter">A</span><span class="node_letter">N</span> Application</h1>
+	<p class="lead">Добро пожаловать!</p>
+	<div>
+		<a class="btn btn-primary" [routerLink]="loggedIn ? ['/dashboard'] : ['/register']">{{loggedIn ? 'Панель' : 'Регистрация'}}</a>
+		<a class="btn btn-default" [routerLink]="loggedIn ? ['/profile'] : ['/login']">{{loggedIn ? 'Профиль' : 'Вход'}}</a>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-4">
+		<h3>Express Backend</h3>
+		<p>Связка Node.js + Express на&nbsp;сервере с&nbsp;использованием Mongoose для организации БД-моделей</p>
+	</div>
+	<div class="col-md-4">
+		<h3>Angular CLI</h3>
+		<p>Angular CLI для генерации компонентов frontend</p>
+	</div>
+	<div class="col-md-4">
+		<h3>JWT токены</h3>
+		<p>Авторизация с&nbsp;использованием JSON Web Tokens</p>
+	</div>
+</div>

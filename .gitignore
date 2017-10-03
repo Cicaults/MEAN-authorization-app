@@ -115,7 +115,7 @@ typings/
 ### MEAN.Anglar Stack ###
 ## Angular ##
 # compiled output
-/dist
+/public
 /tmp
 /app/**/*.js
 /app/**/*.js.map
